@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DINosaur", "Lexend", "Lucida Sans", "Lucida Sans Regular",
+    "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  position: relative;
+}
+header {
+  background: #fbe5d4;
+  filter: blur(8px);
+  box-shadow: 0 5px 9px rgba(57, 63, 72, 0.3);
+  position: sticky;
+}
+main {
+  background: #fbe5d4;
+}
+
+h1 {
+  width: 100%;
+  left: 2%;
+  top: 5%;
+
+  font-family: "Feather";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 112px;
+  /* identical to box height */
+
+  color: #4e4d2f;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+h1:nth-of-type(2) {
+  align-items: right;
+}
+h3 {
+  width: 50%;
+  left: 2%;
+  top: 5%;
+
+  font-size: 1.17em;
+
+  font-weight: 400;
+}
